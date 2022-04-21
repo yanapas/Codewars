@@ -10,5 +10,5 @@ function isSameLanguage(list) {
       obj[el.language] = 1
     }
   }
-  return Object.keys(obj).length === 1? true : false
+  return Object.keys(obj).length === 1
 }
